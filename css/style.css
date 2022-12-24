@@ -20,6 +20,10 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+:root {
+     font-size: 62.5%;
+}
+
 
 body {
      background: white;
@@ -31,7 +35,7 @@ main{
      display: flex;
      background-image: url("../assets/aaron-blanco-tejedor-aEwXKHycWV0-unsplash.jpg") ;
      width: 100% ;
-     height:500px ;
+     height:700px ;
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -45,13 +49,14 @@ header,footer {
      flex-direction: row;
      background-color:white;
      width: 100%;
+     font-size: 2rem;
 
 }
 
 header {
      justify-content: space-between;
      margin: 4px;
-     height: 90px;
+     height: 100px;
 }
 
 footer {
@@ -96,8 +101,12 @@ img {
 }
 
 .logo{
-     height: auto;
-     width: auto;
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+  margin-left: 10px;
 
 }
 
@@ -108,6 +117,7 @@ img {
      align-content: center;
      justify-content: center;
      text-align: center;
+     font-size: 3rem;
 }
 
 .columns{
@@ -115,17 +125,19 @@ img {
      justify-content: center;
      height: 300px;
      background-color: lightpink;
+     font-size: 2rem;
 
 
 }
 
 .services{
      border: black solid;
-     border-radius: 5px;
+     border-radius: 10px;
      text-align: center;
      margin: 2px;
      height: auto;
      background-color: azure;
 
 }
+
 
