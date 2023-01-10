@@ -39,6 +39,8 @@ main{
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
+     align-items: flex-start;
+     justify-content:flex-start;
 }
 
 /******************************************
@@ -120,8 +122,8 @@ img {
      align-content: center;
      justify-content: center;
      text-align: center;
+     padding: 45px;
      font-size: 3rem;
-     padding: 40px;
 }
 
 .columns{
@@ -142,4 +144,10 @@ img {
      height: auto;
      background-color: azure;
 
+}
+
+span{
+     font-size: 3rem;
+     padding: 5rem 3rem ;
+     
 }
